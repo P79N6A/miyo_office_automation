@@ -1,0 +1,40 @@
+@import "compass/css3";
+
+#oilHeader {
+
+  background-color: #fe504f;
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .logoContainer {
+    float: left;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+  }
+
+  .logoContainer label {
+    margin-left: 7px;
+    bottom: 4px;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  .logo {
+    width: 94px;
+    height: 30px;
+    margin-left: 15px;
+    display: inline-block;
+  }
+
+  .userInfo {
+    width: 182px;
+    float: right;
+  }
+}

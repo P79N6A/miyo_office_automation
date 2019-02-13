@@ -1,0 +1,36 @@
+#pageGameSearch {
+  height: 100%;
+  background-color: white;
+
+
+  .queryHeader {
+    position: relative;
+    height: 68px;
+    font-size: 28px;
+    margin-left: 22px;
+    padding-bottom: 10px;
+    background-color: white;
+    border-bottom: 1px solid #d9d9d9;
+  }
+
+  .gameStatisShow {
+    margin-left: 22px;
+    padding-bottom: 10px;
+  }
+
+  .ant-statistic {
+    text-align: center;
+  }
+
+  .game-list {
+    margin-left: 22px;
+    margin-right: 22px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .game-list-pagination {
+    margin: 40px 22px 50px;
+  }
+}
